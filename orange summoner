@@ -1,0 +1,69 @@
+---b---
+local mouse = game.Players.LocalPlayer:GetMouse()
+mouse.KeyDown:Connect(function(k) 
+    if k == "b" then wait(0)
+local A_1 = 
+{
+    [1] = getrenv()._G.Pass, 
+    [2] = "PatienceAttack", 
+    [3] = Vector3.new(-161.15870666504, 0.99999982118607, -377.30264282227), 
+    [4] = game:GetService("Players").LocalPlayer.Backpack.Main.LockOnScript.LockOn.Value
+}
+local Event = game:GetService("ReplicatedStorage").Remotes.CharaMoves
+Event:InvokeServer(A_1)
+end
+end)
+
+local mouse = game.Players.LocalPlayer:GetMouse()
+mouse.KeyDown:Connect(function(k) 
+    if k == "b" then 
+local A_1 = 
+{
+    [1] = getrenv()._G.Pass, 
+    [2] = "KnifeProjectileOrange", 
+    [3] = "Spawn", 
+    [4] = Vector3.new(0, 3000, 0)
+}
+local Event = game:GetService("ReplicatedStorage").Remotes.CharaMoves
+Event:InvokeServer(A_1)
+wait(1)
+local A_1 = 
+{
+    [1] = getrenv()._G.Pass, 
+    [2] = "KnifeProjectileOrange", 
+    [3] = "Spawn", 
+    [4] = Vector3.new(0, 3000, 0)
+}
+local Event = game:GetService("ReplicatedStorage").Remotes.CharaMoves
+Event:InvokeServer(A_1)
+wait(0.4)
+local A_1 = 
+{
+    [1] = getrenv()._G.Pass, 
+    [2] = "KnifeProjectileOrange", 
+    [3] = "Spawn", 
+    [4] = Vector3.new(0, 3000, 0)
+}
+local Event = game:GetService("ReplicatedStorage").Remotes.CharaMoves
+Event:InvokeServer(A_1)
+wait(0.4)
+local A_1 = 
+{
+    [1] = getrenv()._G.Pass, 
+    [2] = "KnifeProjectileOrange", 
+    [3] = "Spawn", 
+    [4] = Vector3.new(0, 3000, 0)
+}
+local Event = game:GetService("ReplicatedStorage").Remotes.CharaMoves
+Event:InvokeServer(A_1)
+wait(0.4)
+local A_1 = 
+{
+    [1] = getrenv()._G.Pass, 
+    [2] = "KnifeProjectileOrange", 
+    [3] = "Spawn", 
+    [4] = Vector3.new(0, 3000, 0)
+}
+local Event = game:GetService("ReplicatedStorage").Remotes.CharaMoves
+end
+end)
