@@ -1,7 +1,7 @@
 ---b---
 local mouse = game.Players.LocalPlayer:GetMouse()
 mouse.KeyDown:Connect(function(k) 
-    if k == "v" then wait(0)
+    if k == "c" then wait(0)
 local A_1 = 
 {
     [1] = getrenv()._G.Pass, 
@@ -16,7 +16,7 @@ end)
 
 local mouse = game.Players.LocalPlayer:GetMouse()
 mouse.KeyDown:Connect(function(k) 
-    if k == "v" then 
+    if k == "c" then 
 local A_1 = 
 {
     [1] = getrenv()._G.Pass, 
